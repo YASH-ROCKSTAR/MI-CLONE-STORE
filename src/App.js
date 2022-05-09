@@ -1,38 +1,16 @@
 import './App.css';
-
+import React from 'react';
+import PreNavbar from './components/PreNavbar'
+import Navbar from './components/Navbar'
 function App() {
 
   return (
     <div>
-
+      <PreNavbar/>
+      <Navbar/>
     </div>
   );
 }
 
 export default App;
 
-
-//jsx instead of html
-// const name="Product";
-
-// const styling={
-  //   backgroundColor:"red",
-  //   padding:"20px"
-  // }
-    // // written inside return is html
-    // // style={styling}
-    // <>
-    //   <Navbar/>
-    //   <div>
-    //     Img
-    //     const
-    //     {/* {name} */}
-    //     {/* <div className='class' id='id'>
-
-    //     </div> */}
-    //     <div>
-    //       hello
-    //     </div>
-    //   price
-    //   </div>
-    // </>

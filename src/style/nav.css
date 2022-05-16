@@ -31,7 +31,9 @@
      transition: 0.2s;
  }
  .navlinks:hover{
-    color: orange;
+    color: orangered;
+    text-decoration: none;
+    
  }
  .searchbox input{
      border: none;
